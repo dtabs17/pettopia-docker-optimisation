@@ -78,6 +78,14 @@ The experiment used five sequential builds per configuration, not a randomised t
 
 **[Pettopia Online Pet Store](https://github.com/dtabs17/Pettopia-Online-Pet-Store)** is the application whose backend was used for this experiment. Its ongoing feature development and codebase are maintained separately from this Docker optimisation project.
 
+
 ## Documentation and evidence
 
-The project has a separate, detailed engineering record covering the troubleshooting steps, original Dockerfiles, exact benchmark commands, image-layer inspections, raw timings, analysis and known limitations. The Dockerfiles and supporting evidence will be added to this repository separately after review.
+The full [technical report](docs/technical-report.pdf) covers the investigation, experimental methodology, Dockerfile changes, benchmark results, statistical analysis, diagrams and proposed control checks.
+
+The original configurations are available as separate files:
+
+- [Baseline Dockerfile](docker/Dockerfile.baseline)
+- [Optimised Dockerfile](docker/Dockerfile.optimised)
+
+The report documents the November 2026 experiment. The repository does not include the historical Pettopia application source or original build logs.
