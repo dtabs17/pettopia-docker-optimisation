@@ -88,4 +88,9 @@ The original configurations are available as separate files:
 - [Baseline Dockerfile](docker/Dockerfile.baseline)
 - [Optimised Dockerfile](docker/Dockerfile.optimised)
 
+The recorded measurements and methodology are also available:
+
+- [Raw benchmark data](evidence/build-times.csv)
+- [Benchmark methodology](evidence/README.md)
+
 The report documents the November 2026 experiment. The repository does not include the historical Pettopia application source or original build logs.
